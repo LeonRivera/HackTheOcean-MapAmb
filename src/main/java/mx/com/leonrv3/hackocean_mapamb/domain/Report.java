@@ -25,6 +25,6 @@ public class Report {
     String contaminante;
     String lugar;
     Date fecha;
-    String biorremediacion;
+    String bioremediacion;
     String notas;
 }
