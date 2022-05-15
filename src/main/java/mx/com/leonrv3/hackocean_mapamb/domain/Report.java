@@ -1,4 +1,6 @@
 package mx.com.leonrv3.hackocean_mapamb.domain;
+import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -17,7 +19,10 @@ import lombok.ToString;
 @Data
 @Entity
 @Table(name = "report")
-public class Report {
+public class Report implements Serializable{
+
+    static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
