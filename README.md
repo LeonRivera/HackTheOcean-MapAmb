@@ -24,3 +24,15 @@ es bastante confiable
 Spring Boot es una tecnologia que forma parte del Framework Spring que permite desplegar aplicaciones web standalone de forma sencilla y rapida
 
 puedes encontrar mas informacion al respecto en la web oficial [Spring Boot](https://spring.io/projects/spring-boot).
+
+
+### Azure 
+
+El proyecto realizado en Spring Boot fue desplegado en una instancia de App Service F1 en Azure
+
+El siguiente link es el endpoint utilizado en el lado del Frontend https://hackoceanmapamb.azurewebsites.net/mapamb/reports
+
+### MySQL 8
+
+La base de datos se encuentra alojada como un recurso en Azure de tipo Database For MySql
+
